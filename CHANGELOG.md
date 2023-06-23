@@ -1,3 +1,3 @@
-## 1.0.0
+# 0.1.0
 
-- Initial version.
+* added document to pdf conversion feature.
