@@ -1,3 +1,4 @@
 # 0.1.0
 
-* added document to pdf conversion feature.
+* Initial version.
+* Added document to pdf conversion feature.
