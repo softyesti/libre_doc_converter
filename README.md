@@ -15,7 +15,7 @@ Convert from .doc, .docx, .ppt, .pptx to .pdf.
 
 The examples are present in the `/example` folder.
 
-### Example: Doc to pdf
+### Example: Document to pdf
 
 ```dart
 import 'dart:io';
