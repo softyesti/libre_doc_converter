@@ -1,6 +1,6 @@
 name: libre_doc_converter
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
+description: A Dart/Flutter library for converting documents using libreoffice.
+version: 0.1.0
 repository: https://github.com/josereia/libre_doc_converter
 
 environment:
