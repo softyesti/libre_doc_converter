@@ -4,7 +4,7 @@ A Dart/Flutter library for converting documents using libreoffice.
 
 ## Features
 
-Convert from .doc, .docx, .ppt, .pptx to .pdf.
+Convert from .doc, .docx, .ppt, .pptx, .xls, .xlsx to .pdf.
 
 ## Getting started
 
@@ -24,6 +24,24 @@ import 'package:libre_doc_converter/libre_doc_converter.dart';
 Future<void> main() async {
   final converter = LibreDocConverter(
     inputFile: File('assets/example_document.docx'),
+  );
+
+  try {
+    final pdfFile = await converter.toPdf();
+    print(pdfFile.path);
+  } catch (e) {
+    rethrow;
+  }
+}
+```
+
+```dart
+import 'dart:io';
+import 'package:libre_doc_converter/libre_doc_converter.dart';
+
+Future<void> main() async {
+  final converter = LibreDocConverter(
+    inputFile: File('assets/example_sheet.xlsx'),
   );
 
   try {
