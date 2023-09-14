@@ -35,6 +35,8 @@ Future<void> main() async {
 }
 ```
 
+### Example: Sheet to pdf
+
 ```dart
 import 'dart:io';
 import 'package:libre_doc_converter/libre_doc_converter.dart';
